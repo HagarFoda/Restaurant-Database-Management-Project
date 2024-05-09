@@ -1,0 +1,455 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+    font-family: 'Times New Roman', serif;
+}
+.logo {
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    
+}
+.navigation a{
+    color:gainsboro;
+    text-decoration:none;
+    font-size:1.1em;
+    font-weight:500;
+    padding-left:30px;
+}
+.navigation a:hover{
+    color:rgb(0, 0, 0);
+}
+section{
+    padding:100px 100px;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(yarab.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    /* Add a semi-transparent black overlay */
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the last value (0.0 to 1.0) for transparency */
+}
+
+    .main h2 {
+        color: rgb(255, 255, 255);
+        font-size: 4.5em;
+        font-weight: 500;
+        margin-top: 200px;
+    }
+        .main h2 span {
+            display: inline-block;
+            color: rgb(0, 0, 0);
+            font-size: 2em;
+            font-weight: 800;
+            margin-top: 5px;
+        }
+    .main h1 {
+        color: rgb(255, 255, 255);
+        font-size: 4em;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-top: 0px;
+        margin-bottom: 1px;
+    }
+.main-btn {
+    color: #fff;
+    background-color: #000000;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+    .main-btn:hover {
+        background-color: #020202;
+        transform: scale(1.1);
+    }
+.social-icons a {
+    color: rgb(214, 133, 27);
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+.aboutus {
+    background: url(yarab.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(214, 133, 27);
+    font-size: 5em;
+    font-weight: 900;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    
+}
+.card {
+    
+    width: 50em;
+    height: 50em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 23px;
+    margin: 15px;
+    transition: 0.7s ease;
+    box-shadow: 0px 0px 50px -1px black;
+}
+    .card:hover {
+        transform: scale(1.1);
+    }
+    .card .icon {
+        color: rgb(255, 255, 255);
+        font-size: 6em;
+        text-align: center;
+    }
+.info {
+    text-align: center;
+}
+
+    .info h2 {
+        color: rgb(255, 255, 255);
+        font-size: 4em;
+        font-weight: 900;
+        margin: 10px;
+        font-family: Allura;
+    }
+    .info p {
+        font-family: 'Times New Roman', serif;
+        color: rgb(214, 133, 27);
+        font-size: 2em;
+        font-weight: 700;
+        margin: 10px;
+    }
+.menu {
+    background: url(yarab.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.head_menu {
+    position: relative;
+    width: 250%;
+    height: 170%;
+    box-shadow: 0px 0px 50px -1px black;
+    padding: 180px 180px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+}
+  .head-logo{
+        position:absolute;
+        top:0;
+        left:10%;
+        width:250px;
+        height:350px;
+        background:#000000;
+        transition:1s linear;
+        
+    }
+    .head-logo:hover {
+        transform: scale(1.1);
+    }
+    .head-logo h1 {
+        color: #fff;
+        text-align: center;
+        margin-top: 5px;
+        font-size: 25px;
+        font-weight: 800;
+        font-family: 'Times New Roman', serif;
+    }
+    .head-logo img{
+        width:300px;
+        margin:20px 0px 0px -30px;
+        filter:drop-shadow(0px 0px 20px rgb(0,0,0,.6));
+    }
+
+.head_menu.nav {
+    width: 100%;
+    height: 10%;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    
+}
+.head_menu .left_menu{
+    width:20px;
+    height:90%;
+    
+}
+
+.head_menu.all {
+    width: 95%;
+    height: 90%;
+    
+}
+.head_menu .content_menu {
+    position: relative;
+    left: 175px;
+    margin-top: -23%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    transition: 1s linear;
+}
+    .head_menu .content_menu h1 {
+        font-size: 40px;
+        font-family: 'Times New Roman', serif;
+        color: rgb(255, 255, 255);
+    }
+    .head_menu .content_menu p {
+        font-size: 20px;
+        font-weight: 100;
+        width: 400px;
+        height:60px;
+        word-break: break-all;
+        font-family: 'Times New Roman', serif;
+        color: white;
+    }
+ .head_menu .content_menu .price_order {
+      display:flex;
+      align-items:center;
+      margin-top:10px;
+    }
+.price_order a {
+    margin-left: -100px;
+}
+.price h2 {
+    font-size: 30px;
+    color: burlywood;
+    line-height: 18px;
+}
+.price_order.price p {
+    font-size: 6px;
+    width: 50px;
+    color: aqua;
+} 
+ 
+ 
+.menu-btn {
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 1px;
+    transition: 0.7s ease;
+    
+}
+
+
+
+.head_menu .menu_cards {
+    width: 90%;
+    height: 175px;
+    border: 1px solid black;
+    border-radius:10px;
+    box-shadow:5px 5px 6px  #888888;
+    position: relative;
+    top: 90%;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+    scroll-behavior: smooth;
+    margin-left: -150px;
+}
+    .head_menu .menu_cards .cards {
+        position:relative;
+        min-width: 125px;
+        min-height: 125px;
+        border: 1px solid black;
+        margin-right:13px;
+        background:#282828;
+        border-radius:50px 10px 10px 10px;
+    }
+ .head_menu .menu_cards .cards .food2{
+     width:70px;
+     position:relative;
+     top:-5px;
+     left:-5px;
+  }
+        .head_menu .menu_cards .cards h4 {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: white;
+            font-size: 20px;
+            font-weight: 600;
+            font-family: 'Times New Roman', serif;
+        }
+        .head_menu .menu_cards .cards h5 {
+            color: white;
+            font-size: 12px;
+            font-family: 'Times New Roman', serif;
+            padding: 0px 10px;
+            margin-top: -8px;
+            display: block;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+        .head_menu .menu_cards .cards p {
+            color: rgb(203,203,203);
+            font-size: 6px;
+            font-weight: 500;
+            padding: 0px 10px;
+            font-family: 'Times New Roman', serif;
+        }
+
+
+    .head_menu .menu_cards .cards .rate_cart{
+       width:100%;
+       display:flex;
+       align-items:center;
+       justify-content:space-between;
+       padding:2px 10px;
+       color:#fff;
+    }
+  .head_menu .menu_cards .cards .rate_cart h6{
+      font-size:15px;
+  }
+.Reservation {
+    background: url(yarab.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    font-family: 'Times New Roman', serif;
+    color: azure;
+    font-size: larger;
+    background-position: center;
+    
+}
+
+
+form {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 50px -1px black;
+}
+
+
+
+table {
+    display: inline-block;
+    font-family: 'Times New Roman', serif;
+    
+}
+.Reservation h2 {
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-family: Allura;
+    font-size: 3em;
+}
+
+.btn {
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Times New Roman', serif;
+    font-weight: 400;
+    display: inline-block;
+    padding: 3px 3px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 1px;
+    transition: 0.7s ease;
+    box-shadow: 1px 1px 1px #888888;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.submit {
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Times New Roman', serif;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 1px;
+    transition: 0.7s ease;
+    box-shadow: 5px 5px 6px #888888;
+}
+.su:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+    
+   
+
+   
+   
+

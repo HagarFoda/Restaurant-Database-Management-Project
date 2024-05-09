@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+body{
+    background: url(signup.jpg) no-repeat;
+
+    margin:0;
+    padding:0;
+    font-family: montserrat;
+    
+    height:100vh;
+    overflow:hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+
+
+
+
+.split-form{
+    text-transform: capitalize;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:400px;
+    height:550px;
+    background: #282828;
+    border-radius:10px;
+    box-shadow: 0px 0px 50px -1px black;
+}
+
+
+.split-form h2{
+    
+    color: whitesmoke;
+    text-align:center;
+    padding:0 0 20px 0;
+    border-radius:1px solid silver;
+    font-family: Allura;
+    font-size: 3em;
+    
+}
+.split-form form{
+    padding:0 90px;
+    box-sizing: border-box;
+}
+.form-group label{
+    font-family: Amita;   
+     color: whitesmoke;
+     font-size: 1em;
+}
+.form-group input{
+    color: #fff;
+    background-color:  rgba(255, 255, 255, 0.651);
+    text-decoration: none;
+    font-size: 1em;
+    font-family: Amita;
+    font-weight: 400;
+    display: inline-block;
+    padding: 4px 4px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 3px;
+    transition: 0.7s ease;
+    box-shadow: 5px 5px 6px #888888;
+}
+.form-group.input:hover {
+    transform: scale(1.1);
+}
+
+
+table {
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
+th {
+  background-color: lightgray;
+}
+  

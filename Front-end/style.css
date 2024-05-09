@@ -1,0 +1,48 @@
+body {
+    background: url(yarab.jpg) no-repeat;
+    background-color: #000000; /* white background */
+    color: #000; /* black text */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.login-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #000; /* black border */
+    background-color: #f7f7f7; /* light gray background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* slight shadow */
+}
+
+h1 {
+    color: #000; /* black heading */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* light gray border */
+    border-radius: 4px;
+}
+
+button {
+    background-color: #000; /* black button background */
+    color: #fff; /* white text on the button */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333; /* dark gray on hover */
+}

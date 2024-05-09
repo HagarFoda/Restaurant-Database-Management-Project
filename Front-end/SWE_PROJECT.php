@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Foodies'n swirels</title>
+    <meta name="description" content="fast and tasty for you" />
+    <meta name="keywords" content="res,tast,food" />
+    <link rel="stylesheet" href="StyleSheet1.css" />
+    <link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/5cd9bd2a3d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Foodies'n swirels</a>
+        <nav class="navigation">
+            <a href="#home">About us</a>
+            <a href="#menu">Menu</a>
+            <a href="#Reservation"> Table Reservation</a>
+        </nav>
+    </header>
+
+
+
+    <section class="main">
+        <div>
+            <h2 style="font-family: Amita ">Foodies'n swirels</h2><br />
+            <h1 style="font-family: Allura ">
+                Have you tried our dishes
+                yet? <br />Visit Us Today!
+            </h1>
+            <a href="#menu" class="main-btn">Order Now!</a>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+    </section>
+    <section class="aboutus">
+        <div class="cards" id="home">
+            <h2 class="title">About us</h2>
+            <div class="content">
+                <div class="card">
+                    <div class="icon">
+                        <a href="#"><i class="fa-regular fa-address-card"></i></a>
+                    </div>
+                    <div class="info">
+                        <h2 style=" font-family: Allura">who are we?</h2>
+                        <p>We are a well-established company established in 1980. 25 years of experience. Our unique dishes are distinguished by the sweetness of taste and the quality of our food by skilled chefs from all over the world. We are glad to meet you.</p>
+                        <br />
+                        <h2 style="font-family: Allura">Opening Time:</h2>
+                        <p>all days </p>
+                        <p>  11 AM - 9 PM </p>
+                        <h2 style="font-family: Allura">resturant phone:</h2>
+                        <p>01012345678 , 01112345678 , 0451234567</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="menu " id="menu">
+        <div class="head_menu ">
+            <div class="head-logo">
+                <h1>FoodBar</h1>
+                <img src="food1.png" id="poster" />
+            </div>
+            <nav></nav>
+            <div class=" left_menu"></div>
+            <section class="all ">
+                <div class=" content_menu">
+                    <h1  id="tit">Thai Chicken</h1>
+                    <p class  ="dish" id="dish">
+                        Sweet chili sauce, soy sauce, brown sugar, chicken tenderloins, fish sauce
+                    </p>
+                    <div class="price_order ">
+                        <div class="price ">
+                            <h2 id="price_cont">$38</h2>
+                            <p>Total payable</p>
+                        </div>
+                        <a href="order_now.php" class="menu-btn">Order Now!</a>
+                        
+                    </div>
+                </div>
+                <div class="menu_cards">
+                    <div class=" cards">
+                        <img src=" food2.png" class=" food2" />
+                        <h4>$18</h4>
+                        <h5>Thai Chicken</h5>
+                        <p>Sweet chili sauce, soy sauce</p>
+                        <p>per plate</p>
+                        <div class=" rate_cart">
+                            <h6>5.0</h6>
+                            <i class="fa-solid fa-cart-shopping"></i>
+
+                        </div>
+                    </div>
+                    <div class=" cards">
+                        <img src=" food3.png" class=" food2" />
+                        <h4>$12</h4>
+                        <h5>Chowmein</h5>
+                        <p>stir fried noodles with vegetables </p>
+
+                        <p>per plate</p>
+                        <div class=" rate_cart">
+                            <h6>3.8</h6>
+                            <i class="fa-solid fa-cart-shopping"></i>
+
+                        </div>
+
+                    </div>
+                    <div class=" cards">
+                        <img src=" food4.png" class=" food2" />
+                        <h4>$24</h4>
+                        <h5> chicken egg</h5>
+                        <p> beat two eggs until yolk </p>
+                        <p>per plate</p>
+                        <div class=" rate_cart">
+                            <h6>4.9</h6>
+                            <i class="fa-solid fa-cart-shopping"></i>
+
+                        </div>
+                    </div>
+                    <div class=" cards">
+                        <img src=" food5.png" class=" food2" />
+                        <h4>$36</h4>
+                        <h5>chicken catlato</h5>
+                        <p> chicken breast that has been cut.</p>
+                        <p>per plate</p>
+                        <div class=" rate_cart">
+                            <h6>5.0</h6>
+                            <i class="fa-solid fa-cart-shopping"></i>
+
+                        </div>
+                    </div>
+                    <div class=" cards">
+                        <img src=" food6.png" class=" food2" />
+                        <h4>$16</h4>
+                        <h5> chicken Betas</h5>
+                        <p>Our juicy chicken pieces with rice</p>
+                        <p>per plate</p>
+                        <div class=" rate_cart">
+                            <h6>4.8</h6>
+                            <i class="fa-solid fa-cart-shopping"></i>
+
+                        </div>
+                    </div>
+                    <div class=" cards">
+                        <img src=" food7.png" class=" food2" />
+                        <h4>$41</h4>
+                        <h5> Deep chicken</h5>
+                        <p>skinless boneless chicken thighs.</p>
+                        <p>per plate</p>
+                        <div class=" rate_cart">
+                            <h6>4.9</h6>
+                            <i class="fa-solid fa-cart-shopping"></i>
+
+                        </div>
+                    </div>
+                    <div class=" cards">
+                        <img src=" food8.png" class=" food2" />
+                        <h4>$36</h4>
+                        <h5>Wrap chicken</h5>
+                        <p>Wrap Recipes.</p>
+                        <p>per plate</p>
+                        <div class=" rate_cart">
+                            <h6>4.8</h6>
+                            <i class="fa-solid fa-cart-shopping"></i>
+
+                        </div>
+                    </div>
+                    <div class=" cards">
+                        <img src=" food9.png" class=" food2" />
+                        <h4>$19.5</h4>
+                        <h5>Roasted chicken</h5>
+                        <p>Place chicken in a roasting pan.</p>
+                        <p>per plate</p>
+                        <div class=" rate_cart">
+                            <h6>4.0</h6>
+                            <i class="fa-solid fa-cart-shopping"></i>
+
+
+                        </div>
+                        </div>
+
+                    </div>
+</section>
+
+        </div>
+         
+    </section>
+    <section class="Reservation" id="Reservation">
+        
+        <form action="payment_method_2.php" method="post" >
+              <h2>Table Reservation</h2>
+            <table>
+
+                <tr>
+                    <td><b><label>Full Name:</label></b></td>
+                    <td><input type="text" placeholder="your name" required class="btn" name="name" /></td>
+                </tr>
+                <tr>
+                    <td><b><label>Phone Number:</label></b></td>
+                    <td><input type="text" placeholder="your number" required class="btn" name="phone" /></td>
+                </tr>
+                <tr>
+                    <td><b><label>Email Address:</label></b></td>
+                    <td><input type="email" placeholder="your email" required class="btn" name="email" /></td>
+
+                </tr>
+                <tr>
+                    <td><b><label>Date:</label></b></td>
+                    <td><input type="date" required class="btn" name="date" /></td>
+                </tr>
+                <tr>
+                    <td><b><label>Time:</label></b></td>
+                    <td><input type="time" required class="btn" name="time" /></td>
+                </tr>
+
+
+
+
+            </table>
+            <br />
+            <button type="submit" class="submit"> reservation </button>
+        </form>
+
+    </section>
+    <script src=" menujava.js"></script>
+
+</body>
+
+
+   
+       
+    
+
+
+</html>
